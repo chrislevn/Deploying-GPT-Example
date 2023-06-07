@@ -11,14 +11,14 @@ Deploy a Machine Learning model (Miniature GPT with movie reviews dataset) with 
 3. Build Docker image (current port is 5002). \
 `docker build -t tagname`\
 `docker push image:tagname`
-3. Rename image (line 32) with the image name from your Docker Hub. 
+3. Rename image (line 32) with the image name from your Docker Hub. \
 Optional: To have Docker image exits and removes itself, run `docker run -rm <IMAGE_NAME>`
 5. Run kubernetes
-`kubectl create -f deployment.yaml` 
+`kubectl create -f deployment.yaml` \
 `kubectl apply -f deployment.yaml` (this will trigger deployment and load balancer)
 5. Run minikube
-`minikube start`
-`minikube service list` (get the list of current service. get the service running your name)
+`minikube start` \
+`minikube service list` (get the list of current service. get the service running your name) \
 `minikube service <SERVICE_NAME>`
 6. Test the API with Postman
 
