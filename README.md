@@ -1,9 +1,9 @@
-# RestAPI-MLOps
+# Deploying Miniature GPT on Flask, Docker, Kubernetes
 
 ![Screenshot 2023-06-06 at 11 51 13 PM](https://github.com/chrislevn/RestAPI-MLOps/assets/32094007/24349e12-a19a-4c09-95a6-ba5305a89204)
 
 ## What it does
-Deploy a Machine Learning model (Miniture GPT with movie reviews dataset) with Docker, Kubernetes, Flask API. 
+Deploy a Machine Learning model (Miniature GPT with movie reviews dataset) with Docker, Kubernetes, Flask API. 
 
 ## How to run: 
 1. Create a hub on Docker - https://hub.docker.com/ (As of current version, Kubernetes will take public image. ) 
