@@ -11,7 +11,7 @@ Deploy a Machine Learning model (Miniature GPT with movie reviews dataset) with 
 3. Build Docker image (current port is 5002). \
 `docker build -t tagname`\
 `docker push image:tagname`
-3. Rename image (line 32) with the image name from your Docker Hub. \
+3. In deployment.yaml, rename image (line 32) with the image name from your Docker Hub. \
 Optional: To have Docker image exits and removes itself, run `docker run -rm <IMAGE_NAME>`
 5. Run kubernetes
 `kubectl create -f deployment.yaml` \
