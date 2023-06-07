@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Docker</title>
+</head>
+<body>
+    <h1>GPT Text Generation with Flask, Docker, Kubernetes</h1>
+    <h2> Desription:</h2>
+    <text> The app takes the prompt of movie reviews and generate the rest. It will also visualize the the words with word cloud. The app's purpose is to demonstrate the ability to deploy Machine Learning model.</text>
+    <h3> Input: </h3>
+    <form action="/" method="post">
+        <input type="text" name="input_text" placeholder="Enter a text">
+        <input type="submit" value="Submit">
+    </form>
+    <h3> Output: </h3>
+    <p> {{ result_text }} </p>
+    <h4> Visualization: </h4>
+    <img src="{{ url_for('static', filename='images/wordcloud.png') }}" alt="plot">
+</body>
+</html>
