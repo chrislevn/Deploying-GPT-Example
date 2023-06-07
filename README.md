@@ -1,6 +1,6 @@
 # Deploying Miniature GPT on Flask, Docker, Kubernetes
 
-![Screenshot 2023-06-06 at 11 51 13 PM](https://github.com/chrislevn/RestAPI-MLOps/assets/32094007/24349e12-a19a-4c09-95a6-ba5305a89204)
+![Screenshot 2023-06-07 at 12 09 40 AM](https://github.com/chrislevn/Deploying-GPT-Example/assets/32094007/89cc5c0f-b9d3-4ccd-b664-29b58eebc2af)
 
 ## What it does
 Deploy a Machine Learning model (Miniature GPT with movie reviews dataset) with Docker, Kubernetes, Flask API. 
